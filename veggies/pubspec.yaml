@@ -1,0 +1,59 @@
+name: veggies
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  intl: ^0.19.0
+  logger: ^2.2.0
+  url_launcher: ^6.2.6
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+  iconsax_flutter: ^1.0.0
+  carousel_slider: ^4.2.1
+  readmore: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  firebase_core: ^2.30.1
+  lottie: ^3.1.0
+  connectivity_plus: ^6.0.3
+  firebase_auth: ^4.19.4
+  cloud_firestore: ^4.17.2
+  google_sign_in: ^6.2.1
+  shimmer: ^3.0.0
+  image_picker: ^1.1.1
+  firebase_storage: ^11.7.5
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/  # Base assets directory
+    - assets/images/  # Images directory
+    - assets/images/on_boarding_images/  # Onboarding images directory
+    - assets/images/gif/  # GIFs directory
+    - assets/images/products/  # Products images directory
+    - assets/images/products/dry_fruits/  # Dry fruits images directory
+    - assets/images/products/fruits/  # Fruits images directory
+    - assets/images/products/masala/  # Masala images directory
+    - assets/images/products/oils/  # Oils images directory
+    - assets/images/products/vegetable/  # Vegetable images directory
+    - assets/images/banners/  # Banners images directory
+    - assets/logos/  # Logos directory
+    - assets/icons/brands/  # Brand icons directory
